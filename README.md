@@ -1,6 +1,6 @@
 # template_static_photograpy_webpage
  
-#Introduction
+Introduction
 Welcome to the Static Photography Webpage Template! This template is a simple and easy-to-use solution for photographers looking to create a professional and elegant online presence. The template features a clean and minimalist design, with a focus on showcasing your photographs in the best possible light.
 
 #Requirements
