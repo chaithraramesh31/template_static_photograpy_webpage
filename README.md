@@ -1,0 +1,1 @@
+# template_static_photograpy_webpage
