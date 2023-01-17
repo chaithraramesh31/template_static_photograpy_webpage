@@ -1,15 +1,16 @@
 # template_static_photograpy_webpage
- 
-**Introduction*
+
+
+## Introduction :
 
 Welcome to the Static Photography Webpage Template! This template is a simple and easy-to-use solution for photographers looking to create a professional and elegant online presence. The template features a clean and minimalist design, with a focus on showcasing your photographs in the best possible light.
 
-**Requirements**
+## Requirements :
 
 A text editor, such as Visual Studio Code
 A web browser, such as Chrome
 
-**Installation**
+## Installation :
 
 Download the template from the repository
 Unzip the downloaded file
@@ -20,7 +21,7 @@ Save the changes
 Upload the entire template to your web server
 Access the template by visiting your website's URL
 
-**Usage**
+## Usage :
 
 The template's file structure is as follows:
 
@@ -29,14 +30,14 @@ css/styles.css: The CSS file that controls the template's styling
 img/: A folder that contains all the images used in the template
 You can customize the template by editing the HTML and CSS files in a text editor. You can also add your own images to the img/ folder.
 
-**Support**
+## Support :
 
 If you have any issues or questions about the template, please contact us at chaithraramesh31@gmail.com. 
 
-**Credits**
+## Credits :
 
 The template uses the lectures from Online Tutorials for reference.
 
-**Conclusion**
+## Conclusion :
 
 Thank you for using the Static Photography Webpage Template! We hope you enjoy using it to create a beautiful and professional online presence for your photography.
