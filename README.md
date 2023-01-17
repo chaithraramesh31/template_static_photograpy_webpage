@@ -8,17 +8,25 @@ Welcome to the Static Photography Webpage Template! This template is a simple an
 ## Requirements :
 
 A text editor, such as Visual Studio Code
+
 A web browser, such as Chrome
 
 ## Installation :
 
 Download the template from the repository
+
 Unzip the downloaded file
+
 Open the folder and locate the index.html file
+
 Open the index.html file in your text editor
+
 Customize the template as desired
+
 Save the changes
+
 Upload the entire template to your web server
+
 Access the template by visiting your website's URL
 
 ## Usage :
@@ -26,8 +34,11 @@ Access the template by visiting your website's URL
 The template's file structure is as follows:
 
 index.html: The main file that contains the HTML code for the template
+
 css/styles.css: The CSS file that controls the template's styling
+
 img/: A folder that contains all the images used in the template
+
 You can customize the template by editing the HTML and CSS files in a text editor. You can also add your own images to the img/ folder.
 
 ## Support :
