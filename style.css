@@ -7,9 +7,9 @@
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
-body{
+/* body{
     min-height: 1000px;
-}
+} */
 .banner{
     position: relative;
     width:100%;
@@ -19,6 +19,7 @@ body{
     align-items: center;
     background: url(bg.jpg);
     background-size: cover;
+    background-position: center;
     box-shadow: 0 5px 20px #023047;
 }
 .banner .content{
@@ -31,7 +32,7 @@ body{
     font-weight: 700;
 }
 .banner .content p{
-    font-size: 7em;
+    font-size: 6.5em;
     font-weight: 900;  
     transition: 0.5s;
 }
@@ -52,7 +53,7 @@ header{
 }
 header.sticky{
     background: white;
-    padding: 10px 100px;
+    padding: 5px 100px;
     box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
 }
 header .logo span{
@@ -132,7 +133,7 @@ section{
     object-fit: cover;
 }
 .gallery{
-    min-height: 90vh;
+    /* min-height: 90vh; */
     background: #4494c8; /*rgb(68,148,200)*/
     box-shadow: 0 0px 20px #023047;
     justify-content: center;
@@ -157,9 +158,9 @@ section{
 .gallery .container{
     position: relative;
     top:10px;
-    width:1200px;
-    height:650px;
-    margin:30px;
+    max-width:1000px;
+    max-height:500px;
+    margin:50px;
     background: #e7694b;
     box-shadow: 0 0px 20px #023047;
     border-radius: 25px;
@@ -227,7 +228,8 @@ section{
     margin-top: 40px;
 }
 .service .content .box{
-    width: 340px;
+    /* width: 340px; */
+    width: 300px;
     margin:20px;
     border: 15px solid white;
     box-shadow: 0 0px 10px #023047;
@@ -237,7 +239,8 @@ section{
 .service .content .box .imgBx{
     position: relative;
     width: 100%;
-    height: 300px;
+    /* height: 300px; */
+    height: 250px;
     box-shadow: 0 0px 10px #023047;
     border-radius: 25px;
 }
@@ -279,7 +282,7 @@ section{
     letter-spacing: 6px;
 }
 .testimonial{
-    min-height: 112vh;
+    /* min-height: 112vh; */
     background: #4494c8; /*rgb(68,148,200)*/
     box-shadow: 0 0px 20px #023047;
 }
@@ -292,25 +295,27 @@ section{
 }
 .testimonial .card{
     position: relative;
-    width: 500px;
-    height: 300px;
+    /* width: 500px;
+    height: 300px; */
+    width: 400px;
+    height: 250px;
     /* height: 550px; */
-    margin: 30px;
+    margin: 20px;
     background: white;
     border-radius: 25px;
     box-shadow: 0 0px 20px #023047;
     transition: .5s;
 }
 .testimonial .card:hover{
-    height: 550px;
+    height: 500px;
 }
 .testimonial .card .imgBx{
     position: absolute;
     left:50%;
     top:-25%;
     transform: translateX(-50%);
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     background: white;
     border-radius: 25px;
     box-shadow: 0 10px 50px rgba(2, 48, 71, 0.5);
@@ -318,8 +323,8 @@ section{
     transition: .5s;
 }
 .testimonial .card:hover .imgBx{
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
 }
 .testimonial .card .imgBx img{
     position: absolute;
@@ -350,7 +355,7 @@ section{
     transform: translateY(250px);
 }
 .testimonial .card:hover .review .details{
-    transform: translateY(120px);
+    transform: translateY(60px);
 }
 .testimonial .card .review .details h2{
     font-size: 2.5em;
@@ -367,7 +372,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     width: 100%;
     flex-direction: column;
 }
@@ -380,6 +385,7 @@ section{
     background: rgba(68,148,200,.1);
     box-shadow: 0 10px 50px rgba(2, 48, 71, 0.5);
     border-radius: 20px;
+    transition: .5s;
 }
 .contact .container .row100{
     position: relative;
@@ -480,11 +486,11 @@ section{
 }
 @media (max-width: 1550px){
     .testimonial .card {
-        margin: 60px;
+        margin: 70px;
     }
     .gallery .container {
-        width: 1150px;
-        height: 650px;
+        width: 1000px;
+        height: 500px;
     }
 }
 @media (max-width: 1200px){
@@ -563,6 +569,12 @@ section{
     .row .col50 .imgBx {
         height: 500px;
         margin-top: 20px;
+    }
+    .gallery{
+        margin-top: 40px;
+    }
+    .gallery .title{
+        top: 10px;
     }
     .gallery .container {
         width: 600px;
